@@ -1,0 +1,90 @@
+#contentContainer{
+    display:block;
+    position: relative;
+    min-height: 310px;
+}
+
+#section{
+    float: left;
+    display: block;
+    Background: #ebebeb;
+    text-align: center;
+    padding-top: 40px;
+    padding: 20px;
+    margin:10px;
+    width: 495px;
+    /* height: 100%;
+    position: absolute;
+    left: 0; */
+}
+#aside{
+    float: right;
+    display: block;
+    /* position: absolute;
+    right: 0; */
+    Background: #ebebeb;
+    text-align: center;
+    padding-top: 40px;
+    padding: 20px;
+    margin:10px;
+    width: 340px;
+    height: 253.2px;
+}
+
+body{
+    Background: #777;
+    width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0 auto; /*centers everything on the page */
+}
+#footer{
+    display: block;
+    clear: both;
+    Background: #ebebeb;
+    text-align: center;
+    padding: 30px;
+    margin: 20px 10px 10px 10px;
+    bottom: 0px;
+}
+#nav, #header{
+    display: block;
+    position: relative;
+    clear: both;
+    Background: #ebebeb;
+    text-align: center;
+    padding: 30px;
+    margin: 10px
+}
+#article{
+    Background: #777;
+    color: #ebebeb;
+    display: block;
+    padding: 20px;
+    margin-top:20px;
+}
+h1, h2, h3, p{
+    Background: #ebebeb;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    display: block;
+    position: relative;
+    color: black;
+    font-size: 18px;
+}
+.row {
+    display: flex; /* equal height of the children */
+}
+  
+.col {
+    flex: 1; /* additionally, equal width */
+    
+    padding: 1em;
+    border: solid;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
